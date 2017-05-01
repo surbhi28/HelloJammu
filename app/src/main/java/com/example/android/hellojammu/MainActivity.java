@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         final ArrayList<JammuDetails> jammuDetails = new ArrayList<JammuDetails>();
 
         jammuDetails.add(new JammuDetails("Temples","#FFA726"));

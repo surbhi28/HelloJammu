@@ -13,7 +13,7 @@ public class HotelsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_places);
 
-        ArrayList<Details> details = new ArrayList<Details>();
+        final ArrayList<Details> details = new ArrayList<Details>();
 
         details.add(new Details("KC Residency",987634));
         details.add(new Details("Radisson" , 857654));

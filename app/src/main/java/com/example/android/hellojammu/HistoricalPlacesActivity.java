@@ -13,7 +13,7 @@ public class HistoricalPlacesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_places);
 
-        ArrayList<Details> details = new ArrayList<Details>();
+        final ArrayList<Details> details = new ArrayList<Details>();
 
         details.add(new Details("Bahu Fort",987634));
         details.add(new Details("Hari Niwas Palace" , 857654));

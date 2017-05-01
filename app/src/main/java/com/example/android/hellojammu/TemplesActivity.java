@@ -13,7 +13,7 @@ public class TemplesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_places);
 
-        ArrayList<Details>details = new ArrayList<Details>();
+        final ArrayList<Details> details = new ArrayList<Details>();
 
         details.add(new Details(getResources().getString(R.string.ragunath_temple),987634,R.drawable.ragunath));
         details.add(new Details(getResources().getString(R.string.mohmaya_temple) ,857654,R.drawable.mohmaya));
