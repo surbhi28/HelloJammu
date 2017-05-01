@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hello Jammu</string>
+    <string name="category_temples">Temples</string>
+    <string name="category_historical_places">Historical Places</string>
+    <string name="category_restaurant">Restaurants</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="ragunath_temple">Ragunath Mandir</string>
+    <string name="shiv_temple">Shiv Khori</string>
+    <string name="mohmaya_temple">Moh Maya</string>
+    <string name="mahadev_restaurant">Maha Dev Food</string>
+    <string name="pahalwan_restaurant">Pahalwan Sweets</string>
+    <string name="spice_restaurant">Spice Court</string>
+
+
+</resources>
