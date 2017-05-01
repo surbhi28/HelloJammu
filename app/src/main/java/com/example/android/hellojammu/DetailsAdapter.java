@@ -23,7 +23,6 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
     public DetailsAdapter(Activity Context, ArrayList<Details> details) {
 
         super(Context, 0, details);
-       // mColorResourceId = colorResourceId;
     }
 
     @NonNull

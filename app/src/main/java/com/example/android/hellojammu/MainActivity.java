@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<JammuDetails> jammuDetails = new ArrayList<JammuDetails>();
+        final ArrayList<JammuDetails> jammuDetails = new ArrayList<JammuDetails>();
 
         jammuDetails.add(new JammuDetails("Temples","#FFA726"));
         jammuDetails.add(new JammuDetails("Restaurants","#9CCC65"));
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         JammuDetailsAdapter jammuDetailsAdapter = new JammuDetailsAdapter(this,jammuDetails);
 
         ListView listView = (ListView) findViewById(R.id.list);
+
         listView.setAdapter(jammuDetailsAdapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
