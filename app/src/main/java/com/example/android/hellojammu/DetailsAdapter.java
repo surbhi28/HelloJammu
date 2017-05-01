@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class DetailsAdapter extends ArrayAdapter<Details> {
 
-    private static final String LOG_TAG = ArrayAdapter.class.getSimpleName();
+    private static final String LOG_TAG = DetailsAdapter.class.getSimpleName();
 
 
     public DetailsAdapter(Activity Context, ArrayList<Details> details) {

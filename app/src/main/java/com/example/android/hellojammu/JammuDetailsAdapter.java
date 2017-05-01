@@ -17,13 +17,12 @@ import java.util.ArrayList;
 
 public class JammuDetailsAdapter extends ArrayAdapter<JammuDetails>{
 
-    private static final String LOG_TAG = ArrayAdapter.class.getSimpleName();
+    private static final String LOG_TAG = JammuDetailsAdapter.class.getSimpleName();
 
 
     public JammuDetailsAdapter(Activity Context, ArrayList<JammuDetails> jammuDetails) {
 
         super(Context, 0, jammuDetails);
-        // mColorResourceId = colorResourceId;
     }
 
     @NonNull
