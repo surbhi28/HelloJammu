@@ -13,7 +13,8 @@ public class RestaurantsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_places);
 
-        final ArrayList<Details> details = new ArrayList<Details>();
+        final
+        ArrayList<Details> details = new ArrayList<Details>();
 
         details.add(new Details(getResources().getString(R.string.mahadev_restaurant),987634));
         details.add(new Details(getResources().getString(R.string.pahalwan_restaurant) , 857654));

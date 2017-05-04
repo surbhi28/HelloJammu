@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * Created by nalin on 01-May-17.
  */
 
-public class JammuDetailsAdapter extends ArrayAdapter<JammuDetails>{
+public class JammuDetailsAdapter extends ArrayAdapter<JammuDetails> {
 
     private static final String LOG_TAG = JammuDetailsAdapter.class.getSimpleName();
 
@@ -35,12 +35,13 @@ public class JammuDetailsAdapter extends ArrayAdapter<JammuDetails>{
         }
         JammuDetails jammuDetail = getItem(position);
 
-        TextView placeTextView = (TextView)listItemView.findViewById(R.id.place_view);
+        TextView placeTextView = (TextView) listItemView.findViewById(R.id.place_view);
         placeTextView.setText(jammuDetail.getPlacesInJammu());
 
         View textContainer = listItemView.findViewById(R.id.text_container);
-        String stringColor = jammuDetail.getPlacesColor();
-        int color = ContextCompat.getColor(getContext(),Integer.parseInt(stringColor));
+        int colorId = jammuDetail.getPlacesColorId();
+
+        int color = ContextCompat.getColor(getContext(), colorId);
         textContainer.setBackgroundColor(color);
 
         return listItemView;

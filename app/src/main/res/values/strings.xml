@@ -1,15 +1,28 @@
 <resources>
     <string name="app_name">Hello Jammu</string>
+
     <string name="category_temples">Temples</string>
     <string name="category_historical_places">Historical Places</string>
     <string name="category_restaurant">Restaurants</string>
     <string name="category_hotels">Hotels</string>
+
     <string name="ragunath_temple">Ragunath Mandir</string>
     <string name="shiv_temple">Shiv Khori</string>
     <string name="mohmaya_temple">Moh Maya</string>
+
     <string name="mahadev_restaurant">Maha Dev Food</string>
     <string name="pahalwan_restaurant">Pahalwan Sweets</string>
     <string name="spice_restaurant">Spice Court</string>
 
+    <string name="hotel_one">KC Residency</string>
+    <string name="hotel_two">Radisson</string>
+    <string name="hotel_three">17 Miles</string>
+    <string name="hotel_four">Blue Moon</string>
+    <string name="hotel_five">Ramada</string>
+    <string name="hotel_six">Natraj</string>
+    <string name="hotel_seven">Sky Lark</string>
 
+    <string name="historical_one">Bahu Fort</string>
+    <string name="historical_two">Hari Niwas Palace</string>
+    <string name="historical_three">Red Fort</string>
 </resources>

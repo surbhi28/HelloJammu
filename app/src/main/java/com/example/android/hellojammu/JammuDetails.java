@@ -8,20 +8,20 @@ public class JammuDetails {
 
     private String mPlacesInJammu;
 
-    private String mPlacesColor;
+    private int mPlacesColorId;
 
 
-    public JammuDetails(String placesInJammu, String placesColor){
+    public JammuDetails(String placesInJammu, int placesColorId) {
         mPlacesInJammu = placesInJammu;
-        mPlacesColor = placesColor;
+        mPlacesColorId = placesColorId;
     }
 
     public String getPlacesInJammu(){
         return mPlacesInJammu;
     }
 
-    public String getPlacesColor(){
-        return mPlacesColor;
+    public int getPlacesColorId() {
+        return mPlacesColorId;
     }
 
 

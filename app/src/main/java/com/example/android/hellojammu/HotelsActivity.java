@@ -15,13 +15,13 @@ public class HotelsActivity extends AppCompatActivity {
 
         final ArrayList<Details> details = new ArrayList<Details>();
 
-        details.add(new Details("KC Residency",987634));
-        details.add(new Details("Radisson" , 857654));
-        details.add(new Details("17 Miles" , 978634));
-        details.add(new Details("Blue Moon" , 978634));
-        details.add(new Details("Ramada" , 978634));
-        details.add(new Details("Natraj" , 978634));
-        details.add(new Details("Sky Lark" , 978634));
+        details.add(new Details(getResources().getString(R.string.hotel_one), 987634));
+        details.add(new Details(getResources().getString(R.string.hotel_two), 857654));
+        details.add(new Details(getResources().getString(R.string.hotel_three), 978634));
+        details.add(new Details(getResources().getString(R.string.hotel_four), 978634));
+        details.add(new Details(getResources().getString(R.string.hotel_five), 978634));
+        details.add(new Details(getResources().getString(R.string.hotel_six), 978634));
+        details.add(new Details(getResources().getString(R.string.hotel_seven), 978634));
 
         DetailsAdapter itemsAdapter = new DetailsAdapter(this,details);
 

@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_places);
 
         final ArrayList<JammuDetails> jammuDetails = new ArrayList<JammuDetails>();
 
-        jammuDetails.add(new JammuDetails("Temples","#FFA726"));
-        jammuDetails.add(new JammuDetails("Restaurants","#9CCC65"));
-        jammuDetails.add(new JammuDetails("Historical Places","#29B6F6"));
-        jammuDetails.add(new JammuDetails("Hotels","#AB47BC"));
+        jammuDetails.add(new JammuDetails(getResources().getString(R.string.category_temples), R.color.color_temples));
+        jammuDetails.add(new JammuDetails(getResources().getString(R.string.category_restaurant), R.color.color_restaurants));
+        jammuDetails.add(new JammuDetails(getResources().getString(R.string.category_historical_places), R.color.color_historical_places));
+        jammuDetails.add(new JammuDetails(getResources().getString(R.string.category_hotels), R.color.color_hotels));
 
         JammuDetailsAdapter jammuDetailsAdapter = new JammuDetailsAdapter(this,jammuDetails);
 
@@ -42,15 +42,19 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         Intent i = new Intent(MainActivity.this,TemplesActivity.class);
                         startActivity(i);
+                        break;
                     case 1:
                         Intent i1 = new Intent(MainActivity.this,RestaurantsActivity.class);
                         startActivity(i1);
+                        break;
                     case 2:
                         Intent i2 = new Intent(MainActivity.this,HistoricalPlacesActivity.class);
                         startActivity(i2);
+                        break;
                     case 3:
                         Intent i3 = new Intent(MainActivity.this,HotelsActivity.class);
                         startActivity(i3);
+                        break;
 
                 }
 

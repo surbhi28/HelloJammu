@@ -15,9 +15,9 @@ public class HistoricalPlacesActivity extends AppCompatActivity {
 
         final ArrayList<Details> details = new ArrayList<Details>();
 
-        details.add(new Details("Bahu Fort",987634));
-        details.add(new Details("Hari Niwas Palace" , 857654));
-        details.add(new Details("Red Fort" , 978634));
+        details.add(new Details(getResources().getString(R.string.historical_one), 987634));
+        details.add(new Details(getResources().getString(R.string.historical_two), 857654));
+        details.add(new Details(getResources().getString(R.string.historical_three), 978634));
 
         DetailsAdapter itemsAdapter = new DetailsAdapter(this,details);
 
